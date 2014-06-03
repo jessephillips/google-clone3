@@ -1,0 +1,180 @@
+* {
+	/* border: 1px solid red !important; */
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body { 
+	position: relative; 
+}
+
+.clear { clear: both; }
+
+/* ------- top stuff ------------- */
+.top-stuff {
+	height: 50px;
+	padding-top: 15px;
+	padding-right: 13px;
+}
+
+.top-stuff ul {
+	display: block;
+	float: right;
+}
+
+.top-stuff li {
+	padding-right: 16px;
+	float: left;
+}
+
+.top-stuff a {
+	color: #404040;
+	font: normal 13px/30px Helvetica, Arial, sans-serif;
+}
+
+img.grid {
+	height: 23px;
+	width: 23px;
+	padding: 3px 2px 0 3px;
+}
+
+.top-stuff #sign-in {
+	background-color: #4584f0;
+	color: #fff;
+	font: 600 13px/12px Helvetica, Arial, sans-serif;
+	padding: 9px 13px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.top-stuff #sign-in:hover {
+	box-shadow: 0 3px 3px 0 #ddd;
+}
+
+a.sign-in:hover { 
+	text-decoration: none;
+	color: #000;
+}
+
+/* ---------- middle stuff ----------- */
+
+.middle {
+	margin: 127px auto;
+	width: 570px;
+}
+
+#logo {
+	background: #fff url('images/google-logo.png') 50% 0 no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	height: 100px;
+	width: 270px;
+}
+
+/* --------- form ----------------*/
+
+.middle label {
+	position: relative;
+}
+
+.middle form {
+	display: block;
+	padding-top: 16px;
+}
+
+input.searchbar {
+	width: 556px;
+	font: normal 14px/21px Arial, sans-serif;
+	padding: 3px 6px;
+	border: 1px solid #d8d8d8;
+}
+
+input:active, input:hover, input:focus {
+	border: 1px solid #4285f4;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+#mic {
+	background: url('images/microphone.png');
+	height: 24px;
+	width: 24px;
+	background-size: contain;
+
+	position: absolute;
+	right: 2px;
+	top: -2px;
+}
+
+#mic:hover {
+	background: #ccc;
+}
+
+.group {
+	/* margin: 14px auto;
+	width: 228px; */
+	margin: 14px 0;
+	text-align: center;
+}
+
+.group input {
+	background-color: #f4f4f4;
+	border: 1px solid #d8d8d8;
+	color: #444;
+	padding: 5px 8px;
+	border-radius: 2px;
+	font: bold 11px/16px Helvetica, Arial, sans-serif;
+}
+
+.group input:first-child {
+	margin-right: 11px;
+}
+
+.middle p {
+	margin: 65px 0;
+	text-align: center;
+	font: normal 13px/12px Helvetica, Arial, sans-serif;
+}
+
+.middle p a {
+	color: #1144d5;
+}
+
+/* --------- footer ---------------- */
+
+footer {
+	background-color: #f2f2f2;
+	color: #66666e;
+	font: normal 13px/12px Helvetica, Arial, sans-serif;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px 30px;
+	border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+	color: #66666e;
+}
+
+.left-side {
+	float: left;
+}
+
+.right-side {
+	float: right;
+	margin-right: 30px;
+}
+
+footer li {
+	float: left;
+	padding-right: 30px;
+}
